@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="24dp"
+    android:gravity="center|top"
+    android:background="#FFFF"
+    tools:context="com.aon.bmihw.Main3Activity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_margin="24dp"
+        app:srcCompat="@drawable/bmi_normal_weight" />
+
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/Text4"
+        android:layout_width="match_parent"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
